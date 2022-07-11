@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContentHub.AntivirusScanner.Functions", "ContentHub.AntivirusScanner.Functions\ContentHub.AntivirusScanner.Functions.csproj", "{BF774C1E-186C-4FCD-A4CE-0E7BA546CFF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContentHub.AntivirusScanner.Application", "ContentHub.AntivirusScanner.Application\ContentHub.AntivirusScanner.Application.csproj", "{1109C8D3-A986-4FA5-B440-57426E3390E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContentHub.AntivirusScanner.Infrastructure.Cloudmersive", "ContentHub.AntivirusScanner.Infrastructure.Cloudmersive\ContentHub.AntivirusScanner.Infrastructure.Cloudmersive.csproj", "{78257D48-DE91-4781-9D53-C4AA461EF87D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContentHub.AntivirusScanner.Infrastructure.Storage", "ContentHub.AntivirusScanner.Infrastructure.Storage\ContentHub.AntivirusScanner.Infrastructure.Storage.csproj", "{16E7A3C5-84DC-479D-B5FA-FAFD02CF5E46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{BDAE88EF-3C79-419A-8D74-91CBCA148343}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{92A896AE-44AF-41AA-8E65-93E4CC4BD492}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unittests", "Unittests", "{08872B3C-51FA-4159-AE7A-541B0CF11662}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContentHub.AntivirusScanner.Application.UnitTests", "ContentHub.AntivirusScanner.Application.UnitTests\ContentHub.AntivirusScanner.Application.UnitTests.csproj", "{632C97FE-0E3A-4D31-BFF5-A1B0B60F06D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContentHub.AntivirusScanner.Functions.UnitTests", "ContentHub.AntivirusScanner.Functions.UnitTests\ContentHub.AntivirusScanner.Functions.UnitTests.csproj", "{0B935E96-C756-41FE-A1B1-830BE73C14F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF774C1E-186C-4FCD-A4CE-0E7BA546CFF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF774C1E-186C-4FCD-A4CE-0E7BA546CFF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF774C1E-186C-4FCD-A4CE-0E7BA546CFF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF774C1E-186C-4FCD-A4CE-0E7BA546CFF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1109C8D3-A986-4FA5-B440-57426E3390E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1109C8D3-A986-4FA5-B440-57426E3390E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1109C8D3-A986-4FA5-B440-57426E3390E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1109C8D3-A986-4FA5-B440-57426E3390E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78257D48-DE91-4781-9D53-C4AA461EF87D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78257D48-DE91-4781-9D53-C4AA461EF87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78257D48-DE91-4781-9D53-C4AA461EF87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78257D48-DE91-4781-9D53-C4AA461EF87D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E7A3C5-84DC-479D-B5FA-FAFD02CF5E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E7A3C5-84DC-479D-B5FA-FAFD02CF5E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E7A3C5-84DC-479D-B5FA-FAFD02CF5E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E7A3C5-84DC-479D-B5FA-FAFD02CF5E46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{632C97FE-0E3A-4D31-BFF5-A1B0B60F06D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{632C97FE-0E3A-4D31-BFF5-A1B0B60F06D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{632C97FE-0E3A-4D31-BFF5-A1B0B60F06D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{632C97FE-0E3A-4D31-BFF5-A1B0B60F06D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B935E96-C756-41FE-A1B1-830BE73C14F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B935E96-C756-41FE-A1B1-830BE73C14F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B935E96-C756-41FE-A1B1-830BE73C14F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B935E96-C756-41FE-A1B1-830BE73C14F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF774C1E-186C-4FCD-A4CE-0E7BA546CFF3} = {92A896AE-44AF-41AA-8E65-93E4CC4BD492}
+		{1109C8D3-A986-4FA5-B440-57426E3390E9} = {92A896AE-44AF-41AA-8E65-93E4CC4BD492}
+		{78257D48-DE91-4781-9D53-C4AA461EF87D} = {BDAE88EF-3C79-419A-8D74-91CBCA148343}
+		{16E7A3C5-84DC-479D-B5FA-FAFD02CF5E46} = {BDAE88EF-3C79-419A-8D74-91CBCA148343}
+		{632C97FE-0E3A-4D31-BFF5-A1B0B60F06D9} = {08872B3C-51FA-4159-AE7A-541B0CF11662}
+		{0B935E96-C756-41FE-A1B1-830BE73C14F5} = {08872B3C-51FA-4159-AE7A-541B0CF11662}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B03A310-80AC-4D8A-8FCE-D41DEDA9B12F}
+	EndGlobalSection
+EndGlobal
